@@ -9,9 +9,7 @@ import com.example.thegoodchef.models.ExtendedIngredient
 import com.example.thegoodchef.utilidades.RecipesDiffUtil
 import kotlinx.parcelize.RawValue
 
-/**
- * Created by animsh on 2/27/2021.
- */
+
 class IngredientesAdapter : RecyclerView.Adapter<IngredientesAdapter.IngredientsViewHolder>() {
 
     private var ingredients = emptyList<ExtendedIngredient>()
