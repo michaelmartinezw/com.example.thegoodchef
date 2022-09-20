@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.thegoodchef.viewmodels.MainViewModel" />
+
+        <variable
+            name="adapter"
+            type="com.example.thegoodchef.adapters.RecetasFavAdapter" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.favorite.FavRecipesFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favRecipesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="10dp"
+            android:paddingBottom="100dp"
+            android:setData="@{adapter}"
+            android:viewVisibility="@{viewModel.readFavRecipe}" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"
+            android:viewVisibility="@{viewModel.readFavRecipe}"
+            android:visibility="invisible"
+            app:riv_corner_radius="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:alpha="0.5"
+            android:text="@string/add_recipes_to_favorite_to_see_them_here"
+            android:textColor="?text_color"
+            android:textStyle="bold"
+            android:viewVisibility="@{viewModel.readFavRecipe}"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</layout>

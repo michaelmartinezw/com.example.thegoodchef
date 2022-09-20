@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.thegoodchef" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/themePrimary</item>
+        <item name="colorPrimaryVariant">@color/backgroundLayoutColorDark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="actionModeBackground">@color/backgroundColorDark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/themePrimary</item>
+        <item name="colorSecondaryVariant">@color/themePrimary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/backgroundColorDark</item>
+        <!-- Customize your theme here. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="background_color">@color/backgroundColorDark</item>
+        <item name="layout_color">@color/backgroundLayoutColorDark</item>
+        <item name="text_color">@color/textColorDark</item>
+        <item name="sub_text_color">@color/subTextColorDark</item>
+        <item name="bottom_navigation_color">@color/backgroundLayoutColorDark</item>
+        <item name="fontFamily">@font/gilroy</item>
+        <item name="bottom_sheet_background">#2A2A2A</item>
+        <item name="search_color">@color/backgroundLayoutColorDark</item>
+        <item name="blur_background_color">#1000</item>
+        <item name="blur_icon_tint_color">@color/blurIconTintColorDark</item>
+        <item name="snackbarStyle">@style/SnackBarMessageStyle</item>
+        <item name="action_bar_color">#5F000000</item>
+        <item name="background_image_circle">#1fffffff</item>
+    </style>
+
+    <style name="SnackBarMessageStyle">
+        <item name="android:layout_marginTop">@dimen/mtrl_snackbar_margin</item>
+        <item name="android:layout_marginLeft">@dimen/mtrl_snackbar_margin</item>
+        <item name="android:layout_marginRight">@dimen/mtrl_snackbar_margin</item>
+        <item name="android:layout_marginBottom">80dp</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipIconSize">18dp</item>
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="checkedIconTint">@color/chip_text_color</item>
+    </style>
+
+    <!-- Alert Dialog -->
+    <style name="ThemeOverlay.MaterialComponents.MaterialAlertDialog_Background" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <!-- Background Color-->
+        <item name="android:background">@color/backgroundLayoutColorDark</item>
+        <!-- Text Color for title and message -->
+        <item name="colorOnSurface">@color/textColorDark</item>
+        <!-- Style for positive button -->
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button">
+        <!-- text color for the button -->
+        <item name="android:textColor">@color/themePrimary</item>
+        <!-- Background tint for the button -->
+        <item name="backgroundTint">@color/backgroundLayoutColorDark</item>
+    </style>
+</resources>

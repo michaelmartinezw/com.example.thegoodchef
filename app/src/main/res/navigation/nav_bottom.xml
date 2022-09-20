@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom"
+    app:startDestination="@id/recipesFragment">
+
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.example.thegoodchef.ui.fragments.recipes.RecipesFragment"
+        android:label="Recipes"
+        tools:layout="@layout/fr_recetas" />
+    <fragment
+        android:id="@+id/favRecipesFragment"
+        android:name="com.example.thegoodchef.ui.fragments.favorite.FavRecipesFragment"
+        android:label="Favorite Recipes"
+        tools:layout="@layout/favoritos" />
+    <fragment
+        android:id="@+id/foodJokeFragment"
+        android:name="com.example.thegoodchef.ui.fragments.foodjoke.FoodJokeFragment"
+        android:label="Food Jokes"
+        tools:layout="@layout/fr_foodjoke" />
+</navigation>

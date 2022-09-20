@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="themePrimary">#FF9A00</color>
+    <color name="red">#FF4646</color>
+    <color name="yellow">#FF9A00</color>
+    <color name="green">#00C980</color>
+    <color name="placeholderColor">#3F2A2A2A</color>
+    <color name="lightThemePrimary">#10FF9A00</color>
+
+    <!--lightMode colors-->
+    <color name="backgroundColorLight">#FFFFFF</color>
+    <color name="backgroundLayoutColorLight">#F8F8F8</color>
+    <color name="textColorLight">#121212</color>
+    <color name="subTextColorLight">#5F6267</color>
+    <color name="blurIconTintColorLight">#FFFFFF</color>
+
+    <!--darkMode colors-->
+    <color name="backgroundColorDark">#000000</color>
+    <color name="backgroundLayoutColorDark">#080808</color>
+    <color name="textColorDark">#F2F2F2</color>
+    <color name="subTextColorDark">#9BA0A6</color>
+    <color name="blurIconTintColorDark">#000000</color>
+
+    // Custom Chip Style
+    <color name="lightGray">#F9F9F9</color>
+    <color name="mediumGray">#D1D1D1</color>
+    <color name="lightMediumGray">#80D1D1D1</color>
+    <color name="darkGray">#4B4B4B</color>
+
+    <color name="checkedChipBackgroundColor">#20FF9A00</color>
+    <color name="chipBackgroundColor">@color/lightGray</color>
+    <color name="checkedChipTextColor">@color/themePrimary</color>
+    <color name="chipTextColor">@color/darkGray</color>
+
+</resources>
