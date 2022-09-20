@@ -1,8 +1,6 @@
 package com.example.thegoodchef.utilidades
 
-/**
- * Created by animsh on 2/22/2021.
- */
+
 sealed class NetworkResult<T>(
     val data: T? = null,
     val message: String? = null

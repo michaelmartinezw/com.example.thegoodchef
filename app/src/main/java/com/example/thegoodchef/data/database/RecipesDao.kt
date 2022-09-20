@@ -5,9 +5,7 @@ import com.example.thegoodchef.data.database.entity.FavoritoEntity
 import com.example.thegoodchef.data.database.entity.RecetaEntity
 import kotlinx.coroutines.flow.Flow
 
-/**
- * Created by animsh on 3/6/2021.
- */
+
 @Dao
 interface RecipesDao {
 

@@ -6,9 +6,7 @@ import android.net.Network
 import android.net.NetworkCapabilities
 import kotlinx.coroutines.flow.MutableStateFlow
 
-/**
- * Created by animsh on 3/17/2021.
- */
+
 class NetworkListener : ConnectivityManager.NetworkCallback() {
 
     private val isNetworkConnected = MutableStateFlow(false)

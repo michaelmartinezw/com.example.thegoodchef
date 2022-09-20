@@ -1,8 +1,5 @@
 package com.example.thegoodchef.data
 
-/**
- * Created by animsh on 3/14/2021.
- */
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.*
