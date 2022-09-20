@@ -6,9 +6,7 @@ import com.example.thegoodchef.data.database.entity.RecetaEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-/**
- * Created by animsh on 3/9/2021.
- */
+
 class LocalDataSource @Inject constructor(
     private val recipesDao: RecipesDao
 ) {

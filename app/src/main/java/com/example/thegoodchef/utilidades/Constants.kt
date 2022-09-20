@@ -1,8 +1,6 @@
 package com.example.thegoodchef.utilidades
 
-/**
- * Created by animsh on 2/20/2021.
- */
+
 class Constants {
     companion object {
         const val BASE_URL = "https://api.spoonacular.com"

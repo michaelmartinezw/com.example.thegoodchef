@@ -5,9 +5,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.QueryMap
 
-/**
- * Created by animsh on 2/20/2021.
- */
+
 interface FoodRecipesAPi {
 
     @GET("/recipes/complexSearch")

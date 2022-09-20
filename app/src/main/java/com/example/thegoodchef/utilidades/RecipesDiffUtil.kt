@@ -2,9 +2,7 @@ package com.example.thegoodchef.utilidades
 
 import androidx.recyclerview.widget.DiffUtil
 
-/**
- * Created by animsh on 3/1/2021.
- */
+
 class RecipesDiffUtil<T>(
     private val oldList: List<T>,
     private val newList: List<T>

@@ -16,9 +16,7 @@ import kotlinx.coroutines.launch
 import retrofit2.Response
 import javax.inject.Inject
 
-/**
- * Created by animsh on 2/22/2021.
- */
+
 @HiltViewModel
 class MainViewModel @Inject constructor(
     private val repository: Repository,

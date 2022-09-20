@@ -6,9 +6,7 @@ import com.example.thegoodchef.models.Result
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
-/**
- * Created by animsh on 3/6/2021.
- */
+
 class RecipesTypeConverter {
 
     var gson = Gson()

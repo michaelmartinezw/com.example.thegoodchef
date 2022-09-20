@@ -5,9 +5,7 @@ import com.example.thegoodchef.models.FoodRecipe
 import retrofit2.Response
 import javax.inject.Inject
 
-/**
- * Created by animsh on 2/20/2021.
- */
+
 class RemoteDataSource @Inject constructor(
     private val foodRecipesAPi: FoodRecipesAPi
 ) {
